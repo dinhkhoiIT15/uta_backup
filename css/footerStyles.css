@@ -1,0 +1,107 @@
+.footer-container {
+    background: #ffeff7;
+}
+
+.content {
+    padding: 91.5px 121.5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: saira, sans-serif;
+}
+
+.left-content {
+    width: 272px;
+    height: 100%;
+}
+
+.slogan {
+    padding: 37px 0 24px;
+    font-weight: 250;
+    font-size: 22px;
+    color: #182848;
+    letter-spacing: 0.1em;
+}
+
+.address-content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.address-content p {
+    margin: 0;
+}
+
+.address-content .company-name {
+    font-weight: bold;
+    color: #182848;
+    font-size: 24px;
+}
+
+.address-content .address {
+    font-weight: 400;
+    font-size: 20px;
+    color: #182848;
+}
+
+.right-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-content .title {
+    font-size: 26px;
+    font-weight: bold;
+    color: #182848;
+    margin: 0;
+    margin-bottom: 36px;
+}
+
+.right-content a {
+    color: #182848;
+    font-size: 22px;
+    font-weight: 25px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 6px 0;
+}
+
+.knowledge {
+    padding: 0 114px 0;
+}
+
+.below-tag {
+    background: #ffeff7;
+    margin: 57px 0 0;
+}
+
+.below-tag .content {
+    padding: 18px 34px 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.below-tag .content .text {
+    text-align: center;
+    margin: 0;
+}
+
+.acpt-cookie {
+    color: #ff5fac;
+    border: none;
+    background: transparent;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: fontSpring, sans-serif;
+    padding: 2px 0;
+    cursor: pointer;
+}

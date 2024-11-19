@@ -1,0 +1,226 @@
+.main-container {
+    padding-top: 46px;
+    padding-bottom: 96px;
+}
+
+/* video banner */
+
+/* logo slider */
+
+/* our media */
+
+/* client-say */
+.client-say {
+    background: #ffeff7;
+    text-align: center;
+    font-family: fontSpring, sans-serif;
+}
+
+.client-say h1 {
+    font-weight: 900;
+    font-size: 60px;
+    margin: 0;
+    margin-bottom: 48px;
+}
+
+.client-say .block {
+    background: white;
+    width: calc(100% / 3);
+}
+
+.client-say .text-content {
+    height: 341px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.client-say .auth-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.client-say .block .description {
+    font-family: saira, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 27px;
+    text-align: justify;
+    padding: 10px 24px 0;
+    margin: 0;
+}
+
+.client-say .block .title {
+    margin: 0;
+    padding: 24px 24px 12px;
+    font-family: fontSpring, sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    color: #ff5fac;
+}
+
+.client-say .block .author {
+    margin: 0;
+    padding: 0 24px 25px;
+    font-weight: 200;
+    font-family: saira, sans-serif;
+    font-size: 18px;
+    color: #182848;
+}
+
+.client-say .block-container {
+    display: flex;
+    gap: 50px;
+    padding-bottom: 16px;
+
+    img {
+        position: relative;
+        top: -25px;
+    }
+}
+
+.client-content {
+    padding: 8.5px 122.5px;
+}
+/* video section */
+
+/* humanizing */
+
+/* embracing remote */
+.embracing {
+    background: #ffeff7;
+}
+
+.embracing .embracing-content {
+    padding: 48px 122px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.report-content .free-rp {
+    font-family: lisboaSans, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    color: #182848;
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+.report-content .line {
+    height: 3px;
+    width: 222px;
+    background: #ff5fac;
+    margin-bottom: 24px;
+}
+
+.report-content .title {
+    max-width: 608px;
+    font-size: 50px;
+    margin: 0;
+    padding-bottom: 12px;
+    font-family: fontSpring, sans-serif;
+    color: #182848;
+}
+
+.report-content .report-body {
+    max-width: 608px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.report-body p {
+    margin: 0;
+    padding: 0;
+    color: #182848;
+    font-family: saira, sans-serif;
+    font-weight: 250;
+    font-size: 25px;
+}
+
+.report-body ul li {
+    margin: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.report-body ul li p {
+    padding-left: 8px;
+    font-family: fontSpring, sans-serif;
+    font-weight: bold;
+}
+
+.report-body li .line {
+    height: 5px;
+    background: #ff5fac;
+    width: 20px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.report-content .end-rp {
+    max-width: 608px;
+    margin: 0;
+    padding: 0;
+    padding-top: 12px;
+    color: #182848;
+    font-family: saira, sans-serif;
+    font-weight: 250;
+    font-size: 25px;
+}
+
+.form-content {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.form-content .content {
+    padding: 0 37px 33px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-content .content input {
+    height: 53px;
+    width: 100%;
+    background: #d9d9d9;
+    outline: none;
+    border: none;
+    padding: 0;
+    border-radius: 4px;
+}
+
+.form-content .content h1 {
+    font-family: fontSpring, sans-serif;
+    font-size: 30px;
+    padding: 0;
+}
+
+.book-icon {
+    position: relative;
+    top: -50px;
+    left: 50px;
+    animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%,
+    100% {
+        transform: translateX(-50px) translateY(0);
+    }
+    50% {
+        transform: translateX(-50px) translateY(-50px);
+    }
+}
+/* learn */
